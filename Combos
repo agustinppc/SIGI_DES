@@ -1,0 +1,89 @@
+<div class="agustinppc-combo alumno redondeado">
+  <select>
+    <option>Combo SIGI Alumno</option>
+    <option>Opcion 1</option>
+    <option>Opcion 2</option>
+    <option>Opcion 3</option>
+    <option>Opcion 4</option>
+    <option>Opcion 5</option>
+    <option>Opcion 6</option>
+  </select>
+</div>
+<div class="agustinppc-combo instituto redondeado">
+  <select>
+    <option>Combo SIGI Instituto</option>
+    <option>Combo SIGI Alumno</option>
+    <option>Opcion 1</option>
+    <option>Opcion 2</option>
+    <option>Opcion 3</option>
+    <option>Opcion 4</option>
+    <option>Opcion 5</option>
+    <option>Opcion 6</option>
+  </select>
+</div>
+<div class="agustinppc-combo des redondeado">
+  <select>
+    <option>Combo SIGI DES</option>
+    <option>Combo SIGI Alumno</option>
+    <option>Opcion 1</option>
+    <option>Opcion 2</option>
+    <option>Opcion 3</option>
+    <option>Opcion 4</option>
+    <option>Opcion 5</option>
+    <option>Opcion 6</option>
+  </select>
+</div>
+​
+/* -------------------- Margen en la página */
+div { margin: 10px; }
+/* -------------------- Contenedor con la lupa -------------------------*/
+.agustinppc-combo {
+   background: url(http://i67.tinypic.com/2k3pm9.png) no-repeat 96%;
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+}
+/* ---------------------------------------------------------------------*/
+
+/* -------------------- Selección visible ------------------------------*/
+.agustinppc-combo select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px;
+   width: 268px;
+   color: white;
+}
+/* ---------------------------------------------------------------------*/
+
+/* -------------------- Contenedor          ----------------------------*/
+.agustinppc-combo.slate {
+
+}
+/* ---------------------------------------------------------------------*/
+
+/* -------------------- Estilos de Redondeados -------------------------*/
+.redondeado {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px; box-shadow: 1px 1px 11px #330033;
+}
+.rectangulo-redondeado {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+/* ---------------------------------------------------------------------*/
+
+/* -------------------- Colores de fondo -------------------------------*/
+.alumno   { background-color: #779126; }
+.instituto    { background-color: #3b8ec2; }
+.des  { background-color: red; }
+/* ---------------------------------------------------------------------*/
+
+/* -------------------- Colores de texto -------------------------------*/
+.alumno select   { color: #fff; }
+.instituto select    { color: #fff; }
+.des select  { color: white; }
+/* ---------------------------------------------------------------------*/
